@@ -63,7 +63,7 @@ public class GuestBook implements ActionListener {
 		if (arg0.getSource().equals(add)) {
 			String addname = JOptionPane.showInputDialog("insert name below");
 			guests.add(addname);
-		}
+		} 
 		else if (arg0.getSource().equals(view)) {
 
 			String names = "";
